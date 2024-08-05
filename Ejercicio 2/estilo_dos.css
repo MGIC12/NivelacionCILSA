@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: 15vh;
+  background-image: url(pixelart-blackandwhite.jpg);
+  background-size: contain;
+}
+
+#div-uno,
+#div-cuatro {
+  background-color: #121235;
+  width: 100%;
+  height: 4vh;
+}
+
+.div-container {
+  display: flex;
+  flex-direction: row;
+  height: 77vh;
+}
+aside {
+  width: 25%;
+  background-color: #ffffff;
+}
+
+#div-dos {
+  background-color: #a33636;
+  width: 100%;
+}
